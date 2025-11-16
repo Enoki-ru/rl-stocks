@@ -1,0 +1,11 @@
+# Конфигурация для базовой модели (быстрое тестирование)
+model:
+  name: "transformer_base"
+  n_days: 7
+  n_days_history: 60
+  start_capital: 100000
+  comission_on_buy: 0.001
+  comission_on_sell: 0.001
+  num_layers: 2
+  d_model: 128 # Размер эмбеддинга
+  n_head: 4

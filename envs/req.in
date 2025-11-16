@@ -1,0 +1,26 @@
+# --extra-index-url https://download.pytorch.org/whl/cu130
+# torch
+# torchvision
+# torchaudio
+
+# tensorflow[and-cuda]
+transformers
+accelerate
+einops
+
+stable-baselines3[extra]
+gymnasium
+
+polars[pyarrow, pandas]
+pandas
+pyarrow
+
+jupyterlab
+matplotlib
+seaborn
+plotly
+scikit-learn
+tqdm
+python-dotenv
+black
+ruff
